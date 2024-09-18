@@ -15,9 +15,9 @@
 2. Перейдите в папку с проектом:
       ```cd algorithms/lab0
 3. Запустите программы:
-     `python src/z1.py
+     ```python src/z1.py
       python src/z2.py
       python src/z3.py
       python src/z4.py
       python src/z5.py
-      python src/z6.py`
+      python src/z6.py```
