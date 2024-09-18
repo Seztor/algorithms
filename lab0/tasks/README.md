@@ -12,8 +12,9 @@
 1. Клонируйте репозиторий:
    ```
    git clone https://github.com/Seztor/algorithms.git
+   ```
 2. Перейдите в папку с проектом:
-    ```bash
+    ```
    cd algorithms/lab0
     ```
 4. Запустите программы:
