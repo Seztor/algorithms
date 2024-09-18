@@ -10,7 +10,7 @@
 
 ## Запуск проекта
 1. Клонируйте репозиторий:
-   ```bash
+   ```
    git clone https://github.com/Seztor/algorithms.git
 2. Перейдите в папку с проектом:
     ```bash
