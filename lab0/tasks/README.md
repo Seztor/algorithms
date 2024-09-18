@@ -13,9 +13,9 @@
    ```bash
    git clone https://github.com/Seztor/algorithms.git
 2. Перейдите в папку с проектом:
-  ```cd algorithms/lab0
+      cd algorithms/lab0
 3. Запустите программы:
-   ```python src/z1.py
+      python src/z1.py
       python src/z2.py
       python src/z3.py
       python src/z4.py
