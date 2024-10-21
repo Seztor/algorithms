@@ -114,29 +114,7 @@
       <recent name="C:\Users\pavel\PycharmProjects\algorithms\lab2\task4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_task5.test_task5_2">
-    <configuration name="task3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task3/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab2/task3/src/task3.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_task6.test_task6">
     <configuration name="pytest for test_task5.test_task5_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="ENV_FILES" value="" />
@@ -151,6 +129,23 @@
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_task5.test_task5_2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_task6.test_task6" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task6/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_task6.test_task6&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -223,20 +218,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.task3" />
       <item itemvalue="Python tests.pytest test_task1.test_task1 " />
       <item itemvalue="Python tests.pytest for test_task5.test_task5_2" />
+      <item itemvalue="Python tests.pytest for test_task6.test_task6" />
       <item itemvalue="Python tests.pytest in test_task3.py" />
       <item itemvalue="Python tests.pytest in test_task4.py" />
       <item itemvalue="Python tests.pytest in test_task5.py" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_task6.test_task6" />
         <item itemvalue="Python tests.pytest for test_task5.test_task5_2" />
         <item itemvalue="Python tests.pytest in test_task5.py" />
         <item itemvalue="Python tests.pytest in test_task4.py" />
         <item itemvalue="Python tests.pytest in test_task3.py" />
-        <item itemvalue="Python.task3" />
       </list>
     </recent_temporary>
   </component>
