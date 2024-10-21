@@ -28,21 +28,12 @@ def merge(arr, p, q, r):
     
     # print(f'p:{p} q:{q} r:{r} | arr1:{arr1} arr2:{arr2} | {arr}' )
 
-if __name__ == '__main__':
-    #n = int(input())
-    #arr = [int(i) for i in input().split()]
-    import random, time, psutil
-    n = 5
-    arr = [random.randint(1, 10**2) for _ in range(n)]
-    
-    print(f'n={n}')
-    print(*arr)
-    t_start = time.perf_counter()
-    merge_sort(arr,0,len(arr)-1)
-    print(f"Memory used: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
-    print('Elapsed time: %s sec' % round(time.perf_counter() - t_start, 5))
-    print(*arr)
+from lab2.utils_lab2 import *
 
+def task1():
+    n, arr = read_data('../txtf/input.txt')
+    merge_sort(arr,0,len(arr)-1)
+    write_data("../txtf/output.txt", arr)
 
 
 

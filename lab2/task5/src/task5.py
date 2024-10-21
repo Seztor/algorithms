@@ -1,5 +1,3 @@
-
-
 def majority(arr, lt, rt):
     if lt == rt:
         return arr[lt]
@@ -30,22 +28,12 @@ def majority(arr, lt, rt):
         else:
             return rt_item
 
-if __name__ == '__main__':
-    # n = int(input())
-    # arr = [int(i) for i in input().split()]  
-    # arr_test = [2,1,2,2,2]
-    # print(arr_test)
-    # print(majority(arr_test,0,len(arr_test)-1))
 
-    import random, time, psutil
-    n = 10**5
-    arr = [random.randint(1, 10) for _ in range(n)]
-    print(f'n={n}')
-    #print(*arr)
-    t_start = time.perf_counter()
-    if n>1:
-        print(majority(arr,0,len(arr)-1))
-    else:
-        print(1)
-    print(f"Memory used: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
-    print('Elapsed time: %s sec' % round(time.perf_counter() - t_start, 5))
+from lab2.utils_lab2 import *
+
+def task5():
+    n, arr = read_data('../txtf/input.txt')
+    is_majority = majority(arr, 0, len(arr) - 1)
+    write_data("../txtf/output.txt", is_majority)
+
+
