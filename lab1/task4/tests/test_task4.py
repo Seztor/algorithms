@@ -10,3 +10,4 @@ def test_task4():
 
     cnt, arr = read_data("../txtf/output.txt")
     assert cnt == 2 and arr == [2,5]
+
