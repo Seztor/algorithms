@@ -4,31 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df3cc67e-6304-43f5-b9ba-71b7de889505" name="Changes" comment="update lab1 repository">
-      <change afterPath="$PROJECT_DIR$/lab2/task1/txtf/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/task1/txtf/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/task3/txtf/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/task3/txtf/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/task4/txtf/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/task4/txtf/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/task5/txtf/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/task5/txtf/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/task6/txtf/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/task6/txtf/output.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab2/utils_lab2.py" afterDir="false" />
+    <list default="true" id="df3cc67e-6304-43f5-b9ba-71b7de889505" name="Changes" comment="update lab2 repository">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/task10/tests/test_task10.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/task10/tests/test_task10.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab1/utils_lab1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab1/utils_lab1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task1/src/task1.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task1/src/task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task1/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task1/tests/test_task1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task3/src/task3.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/src/task3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task3/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task3/tests/test_task3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task4/src/task4.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task4/src/task4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task4/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task4/tests/test_task4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task5/src/task5.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task5/src/task5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task5/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task5/tests/test_task5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task6/src/task6.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task6/src/task6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab2/task6/tests/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/lab2/task6/tests/test_task6.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="lab2_updating" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,6 +57,7 @@
     "Python tests.pytest for test_task3.test_task3.executor": "Run",
     "Python tests.pytest for test_task4.test_task4.executor": "Run",
     "Python tests.pytest for test_task5.test_task5_2.executor": "Run",
+    "Python tests.pytest for test_task6.test_task6.executor": "Run",
     "Python tests.pytest in test_task1.py.executor": "Run",
     "Python tests.pytest in test_task10.py.executor": "Run",
     "Python tests.pytest in test_task3.py.executor": "Run",
@@ -94,7 +73,7 @@
     "Python.utils.executor": "Run",
     "Python.utils_lab1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lab2__updating",
+    "git-widget-placeholder": "main",
     "last_opened_file_path": "C:/Users/pavel/PycharmProjects/algorithms/lab2/task6"
   }
 }]]></component>
@@ -114,89 +93,99 @@
       <recent name="C:\Users\pavel\PycharmProjects\algorithms\lab2\task4\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_task6.test_task6">
-    <configuration name="pytest for test_task5.test_task5_2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.task7">
+    <configuration name="python task7/src/task7.py" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="algorithms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="task7/src/task7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="task7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="algorithms" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task7/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lab1/task7/src/task7.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_task4.test_task4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task5/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task4/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_task5.test_task5_2&quot;" />
+      <option name="_new_target" value="&quot;test_task4.test_task4&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_task6.test_task6" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_task10.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task6/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task10/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_task6.test_task6&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_task3.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task3/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab2/task3/tests/test_task3.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab1/task10/tests/test_task10.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_task4.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in test_task7.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="algorithms" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task4/tests" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab1/task7/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_parameters" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab2/task4/tests/test_task4.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_task5.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="algorithms" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lab2/task5/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_parameters" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab2/task5/tests/test_task5.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/lab1/task7/tests/test_task7.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -218,20 +207,20 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.python task7/src/task7.py" />
+      <item itemvalue="Python.task7" />
       <item itemvalue="Python tests.pytest test_task1.test_task1 " />
-      <item itemvalue="Python tests.pytest for test_task5.test_task5_2" />
-      <item itemvalue="Python tests.pytest for test_task6.test_task6" />
-      <item itemvalue="Python tests.pytest in test_task3.py" />
-      <item itemvalue="Python tests.pytest in test_task4.py" />
-      <item itemvalue="Python tests.pytest in test_task5.py" />
+      <item itemvalue="Python tests.pytest for test_task4.test_task4" />
+      <item itemvalue="Python tests.pytest in test_task10.py" />
+      <item itemvalue="Python tests.pytest in test_task7.py" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.pytest for test_task6.test_task6" />
-        <item itemvalue="Python tests.pytest for test_task5.test_task5_2" />
-        <item itemvalue="Python tests.pytest in test_task5.py" />
-        <item itemvalue="Python tests.pytest in test_task4.py" />
-        <item itemvalue="Python tests.pytest in test_task3.py" />
+        <item itemvalue="Python tests.pytest in test_task7.py" />
+        <item itemvalue="Python tests.pytest in test_task10.py" />
+        <item itemvalue="Python tests.pytest for test_task4.test_task4" />
+        <item itemvalue="Python.task7" />
+        <item itemvalue="Python.python task7/src/task7.py" />
       </list>
     </recent_temporary>
   </component>
@@ -275,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729533231788</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update lab2 repository">
+      <option name="closed" value="true" />
+      <created>1729536876387</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1729536876387</updated>
+    </task>
+    <task id="LOCAL-00005" summary="update lab2 repository">
+      <option name="closed" value="true" />
+      <created>1729537006405</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1729537006405</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -289,7 +294,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="lab2_updating" />
+                        <option value="main" />
                       </list>
                     </value>
                   </entry>
@@ -303,13 +308,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="update lab1 repository" />
-    <option name="LAST_COMMIT_MESSAGE" value="update lab1 repository" />
+    <MESSAGE value="update lab2 repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="update lab2 repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/lab2/task1/tests/test_task1.py</url>
+          <url>file://$PROJECT_DIR$/lab2/task1/tests/test.py</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
