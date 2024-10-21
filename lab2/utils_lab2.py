@@ -32,9 +32,6 @@ def read_data(path, arr_num_type=int):
 
     return input_arr
 
-
-
-
 def write_data(path, *data):
     f_out = open(path, 'w')
     for item in data:
@@ -48,6 +45,7 @@ def write_data(path, *data):
                 print(*item, file=f_out)
 
     f_out.close()
+
 
 
 

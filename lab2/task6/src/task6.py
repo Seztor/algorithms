@@ -32,23 +32,11 @@ def max_cross_subarray(arr, low, m, high):
     return (mx_lt, mx_rt, lt_sum + rt_sum)
 
 
-if __name__ == '__main__':
-    arr = [100,113,110,85,105,102,86,63,81,101,94,106,101,79,94,90,97]
-    # a2 = [13,-3,-25,20,-3,-16,-23,18,20,-7,12,-5,-22,15,-4,7]
-    # n = int(input())
-    # arr = [int(i) for i in input().split()]   
-    razn_arr = [j-i for i,j in zip(arr,arr[1:])]
-    print(razn_arr)
-    print(max_subarray(razn_arr, 0, len(razn_arr)-1))
+from lab2.utils_lab2 import *
 
+def task6():
+    n, arr = read_data('../txtf/input.txt')
+    razn_arr = [j - i for i, j in zip(arr, arr[1:])]
+    arr_ans = max_subarray(razn_arr, 0, len(razn_arr)-1)
+    write_data("../txtf/output.txt", arr_ans)
 
-    # import random, time, psutil
-    # n = 10**5
-    # arr = [random.randint(-10**4, 10**4) for _ in range(n)]
-    # print(f'n={n}')
-    # #print(*arr)
-    # t_start = time.perf_counter()
-    # razn_arr = [j-i for i,j in zip(arr,arr[1:])]
-    # print(max_subarray(arr,0,len(arr)-1))
-    # print(f"Memory used: {psutil.Process().memory_info().rss / 1024 ** 2:.2f} МБ")
-    # print('Elapsed time: %s sec' % round(time.perf_counter() - t_start, 5))
