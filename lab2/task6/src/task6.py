@@ -34,9 +34,14 @@ def max_cross_subarray(arr, low, m, high):
 
 from lab2.utils_lab2 import *
 
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def task6():
-    n, arr = read_data('../txtf/input.txt')
+    n, arr = read_data(PATH_INPUT)
     razn_arr = [j - i for i, j in zip(arr, arr[1:])]
     arr_ans = max_subarray(razn_arr, 0, len(razn_arr)-1)
-    write_data("../txtf/output.txt", arr_ans)
+    write_data(PATH_OUTPUT, arr_ans)
 
+if __name__ == 'main':
+    task6()

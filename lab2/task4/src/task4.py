@@ -16,8 +16,13 @@ def bs(arr, key):
 
 from lab2.utils_lab2 import *
 
-def task4():
-    n, arr_n, k, arr_k = read_data('../txtf/input.txt')
-    ans_arr = [bs(arr_n,el) for el in arr_k]
-    write_data("../txtf/output.txt", ans_arr)
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
 
+def task4():
+    n, arr_n, k, arr_k = read_data(PATH_INPUT)
+    ans_arr = [bs(arr_n,el) for el in arr_k]
+    write_data(PATH_OUTPUT, ans_arr)
+
+if __name__ == 'main':
+    task4()

@@ -30,13 +30,17 @@ def merge(arr, p, q, r):
 
 from lab2.utils_lab2 import *
 
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def task1():
-    n, arr = read_data('../txtf/input.txt')
+    n, arr = read_data(PATH_INPUT)
     merge_sort(arr,0,len(arr)-1)
-    write_data("../txtf/output.txt", arr)
+    write_data(PATH_OUTPUT, arr)
 
 
-
+if __name__ == 'main':
+    task1()
         
 
         

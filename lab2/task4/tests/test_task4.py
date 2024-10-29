@@ -1,15 +1,24 @@
 from lab2.task4.src.task4 import *
 from lab2.utils_lab2 import *
 
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 @func_mem_and_time
-def test_task4():
+def test_should_testing_task4():
+    #given
     n = 5
     arr_n = [1,5,8,12,13]
     k = 5
     arr_k = [8,1,23,1,11]
-    write_data("../txtf/input.txt", n, arr_n, k, arr_k)
+    write_data(PATH_INPUT, n, arr_n, k, arr_k)
 
+    #when
     task4()
+    arr_bs, = read_data(PATH_OUTPUT)
 
-    arr_bs, = read_data("../txtf/output.txt")
+    #then
     assert arr_bs == [2,0,-1,0,-1]
+
+if __name__ == 'main':
+  test_should_testing_task4()
