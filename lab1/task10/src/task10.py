@@ -1,9 +1,7 @@
 from lab1.utils_lab1 import read_data, write_data
 
+def palindrom(n,s):
 
-def task10():
-    n, s = read_data("../txtf/input.txt")
-    print(n, s)
     cnt_let = [0] * 26
     offset = 65
     for i in s:
@@ -14,7 +12,7 @@ def task10():
         if cnt_let[i] % 2 == 1:
             mn_i = i
             break
-            
+
     new_s = ''
 
     for i in range(len(cnt_let)):
@@ -26,5 +24,15 @@ def task10():
     else:
         new_s += new_s[::-1]
 
-    write_data("../txtf/output.txt", new_s)
+    return new_s
 
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
+def task10():
+    n, s = read_data(PATH_INPUT)
+    new_s = palindrom(n,s)
+    write_data(PATH_OUTPUT, new_s)
+
+if __name__ == 'main':
+    task10()

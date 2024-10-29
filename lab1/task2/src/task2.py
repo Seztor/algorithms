@@ -13,6 +13,12 @@ def ins_sort_2(arr):
         ind_arr[j] = i + 2
     return ind_arr, arr
 
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def task2():
-    n, arr = read_data('../txtf/input.txt')
-    write_data('../txtf/output.txt', *ins_sort_2(arr))
+    n, arr = read_data(PATH_INPUT)
+    write_data(PATH_OUTPUT, *ins_sort_2(arr))
+
+if __name__ == 'main':
+    task2()
