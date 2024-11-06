@@ -15,7 +15,5 @@ for i in list_tasks:
         print(f"\033[32m{result}\033[0m")
     else:
         print(f"\033[31m{result}\033[0m")
-    print()
-    print('#'*85)
-    print()
+    print('#'*85+'\n')
     os.chdir(f'../..')
