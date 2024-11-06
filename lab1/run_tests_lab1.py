@@ -7,9 +7,6 @@ for i in list_tasks:
     os.chdir(f'task{i}/tests/')
     print(f'TEST TASK #{i}')
     path_test = f'test_task{i}.py'
-    command = f'pytest --tb=no {path_test}'
-
-    #os.system(command)
     result = subprocess.run(['pytest','--tb=no',path_test], capture_output=True, text=True).stdout
     if 'passed' in result:
         print(f"\033[32m{result}\033[0m")
