@@ -25,14 +25,9 @@
     ```
    cd algorithms/lab1
     ```
-4. Запустите программы:
-     ```
-   python task1/src/task1.py
-   python task2/src/task2.py
-   python task3/src/task3.py
-   python task4/src/task4.py
-   python task7/src/task7.py
-   python task10/src/task10.py
-     ```
+3. Запустите тесты
+   ```
+   python run_tests_lab1.py
+   ```
 
 
