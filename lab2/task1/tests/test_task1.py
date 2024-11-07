@@ -7,7 +7,7 @@ PATH_OUTPUT = "../txtf/output.txt"
 @func_mem_and_time
 def test_should_testing_task1():
     #given
-    n = 10 ** 5
+    n = 10 ** 6
     arr = [random.randint(1, 10 ** 9) for _ in range(n)]
     arr_c = arr.copy()
     write_data(PATH_INPUT, n, arr)
