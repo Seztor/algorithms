@@ -22,9 +22,9 @@
    ```
 2. Перейдите в папку с проектом:
     ```
-   cd algorithms/lab2
+   cd algorithms/lab3
     ```
 3. Запустите тесты
    ```
-   python run_tests_lab2.py
+   python run_tests_lab3.py
    ```
