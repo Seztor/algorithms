@@ -1,7 +1,7 @@
 import subprocess
 import os
 
-list_tasks = [1,2,4,6,9]
+list_tasks = [1,2,4,6,8,9]
 print('#' * 85 + '\n')
 
 for i in list_tasks:
