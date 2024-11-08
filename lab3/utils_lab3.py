@@ -47,6 +47,34 @@ def write_data(path, *data):
     f_out.close()
 
 
+def open_reading(path):
+    global f_in
+    f_in = open(path)
+
+def close_reading(path):
+    global f_in
+    f_in.close()
+
+def read_data_by_line(path, arr_num_type=int, read_as_arr=False):
+    global f_in
+    res = None
+    line = f_in.readline().strip()
+    if read_as_arr:
+        try:
+            res = [arr_num_type(i) for i in line.split()]
+        except:
+            res = line
+    elif line.lstrip('-').isdigit():
+        res = int(line)
+    else:
+        try:
+            res = [arr_num_type(i) for i in line.split()]
+        except:
+            res = line
+
+    return res
+
+
 
 
 

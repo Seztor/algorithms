@@ -19,5 +19,5 @@ def test_should_testing_task3():
     assert num == 17
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
   test_should_testing_task3()

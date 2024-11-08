@@ -20,5 +20,5 @@ def test_should_testing_task4():
     #then
     assert arr_bs == [2,0,-1,0,-1]
 
-if __name__ == 'main':
+if __name__ == '__main__':
   test_should_testing_task4()

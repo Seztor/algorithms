@@ -19,5 +19,5 @@ def test_should_testing_task6():
     assert arr_ans == [7, 10, 43]
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
   test_should_testing_task6()

@@ -18,5 +18,5 @@ def test_should_testing_task1():
     #then
     assert sorted(arr) == arr_alr_sorted
 
-if __name__ == 'main':
+if __name__ == '__main__':
     test_should_testing_task1()

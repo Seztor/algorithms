@@ -17,5 +17,5 @@ def test_should_testing_task10():
     #then
     assert string == 'AQZZQA'
 
-if __name__ == 'main':
+if __name__ == '__main__':
     test_should_testing_task10()

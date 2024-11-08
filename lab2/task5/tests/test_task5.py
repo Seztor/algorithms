@@ -34,6 +34,6 @@ def test_should_testing_task5_2():
     assert is_majority == 0
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
   test_should_testing_task5_1()
   test_should_testing_task5_2()
