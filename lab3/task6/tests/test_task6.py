@@ -1,0 +1,27 @@
+from lab3.task6.src.task6 import *
+from lab3.utils_lab3 import *
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
+
+@func_mem_and_time
+def test_should_testing_task6():
+    #given
+    test_arr = [(4,4), (7,1,4,9), (2,7,8,11)]
+
+    write_data(PATH_OUTPUT, *test_arr)
+
+    #when
+    task6()
+    ans, = read_data(PATH_OUTPUT)
+    ans_to_check = 51
+
+    #then
+    assert ans == ans_to_check
+
+
+
+
+if __name__ == '__main__':
+    test_should_testing_task6()
