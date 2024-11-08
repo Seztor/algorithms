@@ -35,12 +35,16 @@ def read_data(path, arr_num_type=int):
 def write_data(path, *data):
     f_out = open(path, 'w')
     for item in data:
-        if str(item).lstrip('-').isdigit():
+        if str(item).lstrip('-').replace('.','').isdigit():
             print(item, file=f_out)
         else:
             try:
                 if item.isalpha():
                     print(item, file=f_out)
+                else:
+                    if isinstance(item, str):
+                        print(item, file=f_out)
+
             except:
                 print(*item, file=f_out)
 

@@ -22,7 +22,7 @@ def task6():
     n_m, arr_a, arr_b = read_data(PATH_INPUT)
 
     ans = sort_integer_nums(arr_a, arr_b)
-    write_data(PATH_OUTPUT, ans) #ch| ans_arr
+    write_data(PATH_OUTPUT, ans)
 
 
 if __name__ == '__main__':
