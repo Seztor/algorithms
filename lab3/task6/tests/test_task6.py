@@ -9,7 +9,6 @@ PATH_OUTPUT = "../txtf/output.txt"
 def test_should_testing_task6():
     #given
     test_arr = [(4,4), (7,1,4,9), (2,7,8,11)]
-
     write_data(PATH_INPUT, *test_arr)
 
     #when

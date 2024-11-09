@@ -7,6 +7,8 @@ def generate_worst_case(ln):
     return arr
 
 def create_arr_for_test(n):
+    if n==1:
+        return [1]
     arr = [0] * n
     arr[0], arr[1] = 1, 2
     for i in range(2,n):
