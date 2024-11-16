@@ -30,6 +30,7 @@ def task8():
     ans = find_k_closest_points(arr_dots, k)
 
     write_data(PATH_OUTPUT, ans)
+    return ans
 
 if __name__ == '__main__':
     task8()

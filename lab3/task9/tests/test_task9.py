@@ -12,8 +12,8 @@ def test_should_testing_task9():
     write_data(PATH_INPUT, *test_arr)
 
     #when
-    task9()
-    ans, = read_data(PATH_OUTPUT)
+
+    ans = task9()
     ans_to_check = '1.414213'
 
     #then

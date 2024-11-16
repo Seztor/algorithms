@@ -34,6 +34,7 @@ def task7():
     arr_ans1 = max_subarray_linear_for_comparing(arr)
     arr_ans2 = max_subarray_linear(arr)
     write_data(PATH_OUTPUT, arr_ans1, arr_ans2)
+    return arr_ans1, arr_ans2
 
 if __name__ == 'main':
     task7()

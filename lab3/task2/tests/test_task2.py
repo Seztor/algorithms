@@ -12,8 +12,7 @@ def test_should_testing_task2():
     write_data(PATH_INPUT, n)
 
     #when
-    task2()
-    arr, = read_data(PATH_OUTPUT)
+    arr = task2()
     arr2 = create_arr_for_test(n)
 
 

@@ -12,11 +12,10 @@ def test_should_testing_task7():
     write_data(PATH_INPUT, n, arr_to_write)
 
     #when
-    task7()
-    arr_ans, = read_data(PATH_OUTPUT)
+    ans_arr = list(task7())
 
     #then
-    assert arr_ans == [3,4,1]
+    assert ans_arr == [3,4,1]
 
 if __name__ == '__main__':
     test_should_testing_task7()

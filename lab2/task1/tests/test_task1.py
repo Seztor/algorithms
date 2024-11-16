@@ -14,11 +14,10 @@ def test_should_testing_task1():
     write_data(PATH_INPUT, n, arr)
 
     #when
-    task1()
-    arr_alr_sorted, = read_data(PATH_OUTPUT)
+    ans_arr = task1()
 
     #then
-    assert arr_alr_sorted == sorted(arr_c)
+    assert ans_arr == sorted(arr_c)
 
 if __name__ == '__main__':
   test_should_testing_task1()

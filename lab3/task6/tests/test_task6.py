@@ -12,8 +12,7 @@ def test_should_testing_task6():
     write_data(PATH_INPUT, *test_arr)
 
     #when
-    task6()
-    ans, = read_data(PATH_OUTPUT)
+    ans = task6()
     ans_to_check = 51
 
     #then

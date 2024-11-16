@@ -12,8 +12,7 @@ def test_should_testing_task5_1():
     write_data(PATH_INPUT, n, arr)
 
     #when
-    task5()
-    is_majority, = read_data(PATH_OUTPUT)
+    is_majority = task5()
 
     #then
     assert is_majority == 1
@@ -27,8 +26,7 @@ def test_should_testing_task5_2():
     write_data(PATH_INPUT, n, arr)
 
     #when
-    task5()
-    is_majority, = read_data(PATH_OUTPUT)
+    is_majority = task5()
 
     #then
     assert is_majority == 0

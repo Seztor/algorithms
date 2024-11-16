@@ -12,7 +12,9 @@ def reverse_ins_sort(arr):
 
 def task3():
     n, arr = read_data(PATH_INPUT)
-    write_data(PATH_OUTPUT, reverse_ins_sort(arr))
+    ans_arr = reverse_ins_sort(arr)
+    write_data(PATH_OUTPUT, ans_arr)
+    return ans_arr
 
 if __name__ == 'main':
     task3()

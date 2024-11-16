@@ -10,8 +10,7 @@ def test_should_testing_task4():
     write_data(PATH_INPUT,
                [1,3,4,5,6,4,8,3],4)
     #when
-    task4()
-    cnt, arr = read_data(PATH_OUTPUT)
+    cnt, arr = task4()
 
     #then
     assert cnt == 2 and arr == [2,5]

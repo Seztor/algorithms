@@ -12,8 +12,8 @@ def test_should_testing_task8():
     write_data(PATH_INPUT, *test_arr)
 
     #when
-    task8()
-    ans, = read_data(PATH_OUTPUT)
+
+    ans = task8()
     ans_to_check = '[3,3],[-2,4]'
 
 

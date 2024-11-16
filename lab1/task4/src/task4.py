@@ -17,8 +17,10 @@ def task4():
     found = find_equal(arr,v)
     if len(found) == 0:
         write_data(PATH_OUTPUT, -1)
+        return -1
     else:
         write_data(PATH_OUTPUT, len(found), found)
+        return len(found), found
 
 if __name__ == 'main':
     task4()

@@ -12,8 +12,7 @@ def test_should_testing_task6():
     write_data(PATH_INPUT, n, arr)
 
     #when
-    task6()
-    arr_ans, = read_data(PATH_OUTPUT)
+    arr_ans = list(task6())
 
     #then
     assert arr_ans == [7, 10, 43]

@@ -12,9 +12,9 @@ def test_should_testing_task2():
     write_data(PATH_INPUT, n, arr)
 
     #when
-    task2()
+    ans_arr = task2()
     n, arr = read_data(PATH_INPUT)
-    arr1, arr2 = read_data(PATH_OUTPUT)
+    arr1, arr2 = ans_arr
 
     #then
     assert arr1 == [1,2,2,2,3,5,5,6,9,1] and arr2 == [0,1,2,3,4,5,6,7,8,9]

@@ -14,8 +14,7 @@ def test_should_testing_task1():
     write_data(PATH_INPUT, n, arr)
 
     #when
-    task1()
-    arr_alr_sorted, = read_data(PATH_OUTPUT)
+    arr_alr_sorted = task1()
 
     #then
     assert arr_alr_sorted == arr_c

@@ -36,6 +36,7 @@ def task1():
     n, arr = read_data(PATH_INPUT)
     merge_sort(arr,0,len(arr)-1)
     write_data(PATH_OUTPUT, arr)
+    return arr
 
 
 if __name__ == 'main':

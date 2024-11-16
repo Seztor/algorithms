@@ -28,6 +28,7 @@ def task2():
     n, = read_data(PATH_INPUT)
     arr = generate_worst_case(n)
     write_data(PATH_OUTPUT, arr)
+    return arr
 
 
 if __name__ == '__main__':

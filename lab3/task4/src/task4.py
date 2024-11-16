@@ -58,9 +58,10 @@ def task4():
     close_reading(PATH_INPUT)
 
     ans_arr = points_and_segments(segments, points)
-    ans_arr2 = brute_force_sol(segments, points) # del
-    #print(ans_arr, ans_arr2)
-    write_data(PATH_OUTPUT, (ans_arr==ans_arr2)+0) #ch| ans_arr
+    ans_arr2 = brute_force_sol(segments, points)
+
+    write_data(PATH_OUTPUT, (ans_arr==ans_arr2)+0)
+    return (ans_arr==ans_arr2)+0
 
 
 if __name__ == '__main__':

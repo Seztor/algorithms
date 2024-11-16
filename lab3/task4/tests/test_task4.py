@@ -23,8 +23,7 @@ def test_should_testing_task4():
     write_data(PATH_INPUT, (s,p), *arr_seg, arr_points)
 
     #when
-    task4()
-    ans, = read_data(PATH_OUTPUT)
+    ans = task4()
 
     #then
     assert ans == True

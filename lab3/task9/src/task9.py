@@ -66,6 +66,7 @@ def task9():
     dist, pair = recursion_pair_closest(arr_sorted_by_x, arr_sorted_by_y)
     dist = f'{dist:.7f}'[:-1]
     write_data(PATH_OUTPUT, dist)
+    return dist
 
 if __name__ == '__main__':
     task9()

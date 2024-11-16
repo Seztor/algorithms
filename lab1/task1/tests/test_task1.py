@@ -12,12 +12,11 @@ def test_should_testing_task1():
     write_data(PATH_INPUT, n, [random.randint(1, 10 ** 3) for _ in range(n)])
 
     #when
-    task1()
+    sorted_arr = task1()
     n, arr = read_data(PATH_INPUT)
-    arr_alr_sorted, = read_data(PATH_OUTPUT)
 
     #then
-    assert sorted(arr) == arr_alr_sorted
+    assert sorted(arr) == sorted_arr
 
 if __name__ == '__main__':
     test_should_testing_task1()

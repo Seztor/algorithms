@@ -13,8 +13,7 @@ def test_should_testing_task7():
     write_data(PATH_INPUT, n, arr)
 
     #when
-    task7()
-    ans1, ans2 = read_data(PATH_OUTPUT)
+    ans1, ans2 = task7()
 
     #then
     assert ans1 == ans2

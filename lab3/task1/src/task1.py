@@ -55,6 +55,7 @@ def task1():
     n, arr = read_data(PATH_INPUT)
     quick_sort_p3(arr, 0, n - 1)
     write_data(PATH_OUTPUT, arr)
+    return arr
 
 
 if __name__ == '__main__':

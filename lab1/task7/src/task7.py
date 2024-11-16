@@ -19,6 +19,7 @@ def task7():
     n, arr = read_data(PATH_INPUT, arr_num_type=float)
     ans = ins_sort_plus(n,arr)
     write_data(PATH_OUTPUT, ans)
+    return ans
 
 if __name__ == 'main':
     task7()

@@ -12,8 +12,7 @@ def test_should_testing_task3():
     write_data(PATH_INPUT, n, arr)
 
     #when
-    task3()
-    num, = read_data(PATH_OUTPUT)
+    num = task3()
 
     #then
     assert num == 17

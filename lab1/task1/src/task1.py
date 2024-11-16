@@ -16,7 +16,10 @@ def ins_sort(arr):
 
 def task1():
     n, arr = read_data(PATH_INPUT)
-    write_data(PATH_OUTPUT, ins_sort(arr))
+    sorted_arr = ins_sort(arr)
+    write_data(PATH_OUTPUT, sorted_arr)
+    return sorted_arr
+
 
 if __name__ == 'main':
     task1()

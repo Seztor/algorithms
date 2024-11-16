@@ -45,6 +45,7 @@ def task3():
     n, arr = read_data(PATH_INPUT)
     k = merge_sort_2(arr, 0, len(arr) - 1)
     write_data(PATH_OUTPUT, k)
+    return k
 
 if __name__ == 'main':
     task3()

@@ -33,6 +33,7 @@ def task10():
     n, s = read_data(PATH_INPUT)
     new_s = palindrom(n,s)
     write_data(PATH_OUTPUT, new_s)
+    return new_s
 
 if __name__ == 'main':
     task10()

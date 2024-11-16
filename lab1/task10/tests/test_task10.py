@@ -11,8 +11,7 @@ def test_should_testing_task10():
                6, 'QAZQAZ')
 
     #when
-    task10()
-    string, = read_data(PATH_OUTPUT)
+    string = task10()
 
     #then
     assert string == 'AQZZQA'

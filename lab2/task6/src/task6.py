@@ -43,6 +43,7 @@ def task6():
     razn_arr = [j - i for i, j in zip(arr, arr[1:])]
     arr_ans = max_subarray(razn_arr, 0, len(razn_arr)-1)
     write_data(PATH_OUTPUT, arr_ans)
+    return arr_ans
 
 if __name__ == 'main':
     task6()

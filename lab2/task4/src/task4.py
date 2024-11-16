@@ -24,6 +24,7 @@ def task4():
     n, arr_n, k, arr_k = read_data(PATH_INPUT)
     ans_arr = [bs(arr_n,el) for el in arr_k]
     write_data(PATH_OUTPUT, ans_arr)
+    return ans_arr
 
 if __name__ == 'main':
     task4()

@@ -14,8 +14,7 @@ def test_should_testing_task4():
     write_data(PATH_INPUT, n, arr_n, k, arr_k)
 
     #when
-    task4()
-    arr_bs, = read_data(PATH_OUTPUT)
+    arr_bs = task4()
 
     #then
     assert arr_bs == [2,0,-1,0,-1]

@@ -24,6 +24,7 @@ def task6():
 
     ans = sort_integer_nums(arr_a, arr_b)
     write_data(PATH_OUTPUT, ans)
+    return ans
 
 
 if __name__ == '__main__':

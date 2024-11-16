@@ -38,6 +38,7 @@ def task5():
     n, arr = read_data(PATH_INPUT)
     is_majority = majority(arr, 0, len(arr) - 1)
     write_data(PATH_OUTPUT, is_majority)
+    return is_majority
 
 if __name__ == 'main':
     task5()

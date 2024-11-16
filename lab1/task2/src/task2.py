@@ -18,7 +18,9 @@ def ins_sort_2(arr):
 
 def task2():
     n, arr = read_data(PATH_INPUT)
-    write_data(PATH_OUTPUT, *ins_sort_2(arr))
+    ans_arr = ins_sort_2(arr)
+    write_data(PATH_OUTPUT, *ans_arr)
+    return ans_arr
 
 if __name__ == 'main':
     task2()
