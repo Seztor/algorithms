@@ -20,7 +20,5 @@ def test_should_testing_task6():
     assert ans == ans_to_check
 
 
-
-
 if __name__ == '__main__':
     test_should_testing_task6()

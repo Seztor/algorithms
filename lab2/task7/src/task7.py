@@ -1,3 +1,8 @@
+from lab2.utils_lab2 import *
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def max_subarray_linear(arr):
     min_pref = min(arr[0], 0)
     max_sum = arr[0]
@@ -23,10 +28,6 @@ def max_subarray_linear_for_comparing(nums):
     return max_sum
 
 
-from lab2.utils_lab2 import *
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task7():
     n, arr = read_data(PATH_INPUT)

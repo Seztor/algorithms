@@ -1,3 +1,8 @@
+from lab3.utils_lab3 import read_data, write_data, open_reading, close_reading, read_data_by_line
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def find_k_closest_points(points, k):
     points = sorted([[a,b,find_dist(a,b)] for a,b in points], key=lambda x:x[2])
     points = points[:k]
@@ -12,10 +17,6 @@ def find_k_closest_points(points, k):
 def find_dist(dot1, dot2):
     return (dot1 ** 2 + dot2 ** 2) ** 0.5
 
-from lab3.utils_lab3 import read_data, write_data, open_reading, close_reading, read_data_by_line
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task8():
     open_reading(PATH_INPUT)

@@ -1,3 +1,9 @@
+from lab3.utils_lab3 import read_data, write_data, open_reading, close_reading, read_data_by_line
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
+
 def recursion_pair_closest(arr_s_x, arr_s_y):
     if len(arr_s_x) <= 3:
         min_dist = 10**18
@@ -45,10 +51,6 @@ def find_dist(dot1, dot2):
     return ((dot1[0] - dot2[0]) ** 2 + (dot1[1] - dot2[1]) ** 2) ** 0.5
 
 
-from lab3.utils_lab3 import read_data, write_data, open_reading, close_reading, read_data_by_line
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task9():
     open_reading(PATH_INPUT)

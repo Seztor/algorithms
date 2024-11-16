@@ -1,3 +1,8 @@
+from lab2.utils_lab2 import *
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def max_subarray(arr, low, high):
     if low == high:
         return (low,high, arr[low])
@@ -32,10 +37,6 @@ def max_cross_subarray(arr, low, m, high):
     return (mx_lt, mx_rt, lt_sum + rt_sum)
 
 
-from lab2.utils_lab2 import *
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task6():
     n, arr = read_data(PATH_INPUT)

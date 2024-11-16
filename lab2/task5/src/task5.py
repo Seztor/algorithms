@@ -1,3 +1,9 @@
+from lab2.utils_lab2 import *
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
+
 def majority(arr, lt, rt):
     if lt == rt:
         return arr[lt]
@@ -10,7 +16,6 @@ def majority(arr, lt, rt):
     cnt_lt_item = arr[lt:m+1].count(lt_item)
     cnt_rt_item = arr[m+1:rt+1].count(rt_item)
 
-    #print(f'lt:{lt} m:{m} rt:{rt} | {lt_item}:{cnt_lt_item} - {rt_item}:{cnt_rt_item}' )
 
     if lt == 0 and rt == len(arr)-1:
         full_arr_lt_cnt = arr.count(lt_item)
@@ -28,11 +33,6 @@ def majority(arr, lt, rt):
         else:
             return rt_item
 
-
-from lab2.utils_lab2 import *
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task5():
     n, arr = read_data(PATH_INPUT)

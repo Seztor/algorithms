@@ -1,3 +1,9 @@
+from lab3.utils_lab3 import read_data, write_data
+import random
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def quick_sort_p2(arr,l,r):
     if l < r:
         m = partition2(arr, l,r)
@@ -43,14 +49,6 @@ def partition3(arr, l, r):
             eq += 1
 
     return lt, gt
-
-
-
-from lab3.utils_lab3 import read_data, write_data
-import random
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 
 def task1():

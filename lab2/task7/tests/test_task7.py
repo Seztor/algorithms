@@ -1,4 +1,3 @@
-import random
 from lab2.task7.src.task7 import *
 from lab2.utils_lab2 import *
 

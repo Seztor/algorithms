@@ -1,5 +1,8 @@
 from lab1.utils_lab1 import read_data, write_data
 
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def palindrom(n,s):
 
     cnt_let = [0] * 26
@@ -25,9 +28,6 @@ def palindrom(n,s):
         new_s += new_s[::-1]
 
     return new_s
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task10():
     n, s = read_data(PATH_INPUT)

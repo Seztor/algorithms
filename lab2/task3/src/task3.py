@@ -1,3 +1,9 @@
+from lab2.utils_lab2 import *
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
+
 def merge_sort_2(arr, p, r):
     k = 0
     if p < r:
@@ -34,10 +40,6 @@ def merge_2(arr, p, q, r):
 
     return k
 
-from lab2.utils_lab2 import *
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task3():
     n, arr = read_data(PATH_INPUT)

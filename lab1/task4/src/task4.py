@@ -1,5 +1,7 @@
 from lab1.utils_lab1 import *
 
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
 
 def find_equal(arr,v):
     found = []
@@ -9,9 +11,6 @@ def find_equal(arr,v):
             found.append(i)
 
     return found
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task4():
     arr, v = read_data(PATH_INPUT)

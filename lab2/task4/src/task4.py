@@ -1,3 +1,8 @@
+from lab2.utils_lab2 import *
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def bs(arr, key):
     lt = -1
     rt = len(arr)
@@ -14,10 +19,6 @@ def bs(arr, key):
         return -1
 
 
-from lab2.utils_lab2 import *
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task4():
     n, arr_n, k, arr_k = read_data(PATH_INPUT)

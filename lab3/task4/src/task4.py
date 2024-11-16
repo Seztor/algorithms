@@ -1,3 +1,8 @@
+from lab3.utils_lab3 import read_data, write_data, read_data_by_line, open_reading, close_reading
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def points_and_segments(segments, points):
     start_seg_dct = {}
     end_seg_dct = {}
@@ -41,13 +46,6 @@ def brute_force_sol(segments, points):
         ans_arr.append(cnt)
     return ans_arr
 
-
-
-
-from lab3.utils_lab3 import read_data, write_data, read_data_by_line, open_reading, close_reading
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task4():
     open_reading(PATH_INPUT)

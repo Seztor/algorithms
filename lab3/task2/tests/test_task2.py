@@ -21,7 +21,5 @@ def test_should_testing_task2():
     assert arr==arr2
 
 
-
-
 if __name__ == '__main__':
   test_should_testing_task2()

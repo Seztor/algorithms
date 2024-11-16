@@ -29,7 +29,5 @@ def test_should_testing_task4():
     assert ans == True
 
 
-
-
 if __name__ == '__main__':
     test_should_testing_task4()

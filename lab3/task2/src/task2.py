@@ -1,3 +1,9 @@
+from lab3.utils_lab3 import read_data, write_data
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
+
 def generate_worst_case(ln):
     arr = []
     for i in range(0, ln):
@@ -17,11 +23,6 @@ def create_arr_for_test(n):
     return arr
 
 
-from lab3.utils_lab3 import read_data, write_data
-
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task2():
     n, = read_data(PATH_INPUT)

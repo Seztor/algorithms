@@ -1,3 +1,9 @@
+from lab3.utils_lab3 import read_data, write_data
+
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
+
 def sort_integer_nums(arr_a, arr_b):
     arr = [i*j for i in arr_a for j in arr_b]
     cnt_s_a = [0]*40001
@@ -12,11 +18,6 @@ def sort_integer_nums(arr_a, arr_b):
     return sm
 
 
-
-from lab3.utils_lab3 import read_data, write_data
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task6():
     n_m, arr_a, arr_b = read_data(PATH_INPUT)

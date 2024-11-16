@@ -2,6 +2,9 @@ import subprocess
 import os
 
 list_tasks = [1,2,4,6,8,9]
+list_passed_tasks = []
+list_failed_tasks = []
+
 print('#' * 85 + '\n')
 
 for i in list_tasks:
@@ -11,7 +14,13 @@ for i in list_tasks:
     result = subprocess.run(['pytest','--tb=no',path_test], capture_output=True, text=True).stdout
     if 'passed' in result:
         print(f"\033[32m{result}\033[0m")
+        list_passed_tasks.append(i)
     else:
         print(f"\033[31m{result}\033[0m")
+        list_failed_tasks.append(i)
     print('#' * 85 + '\n')
     os.chdir(f'../..')
+
+print(f'Passed tasks:', *list_passed_tasks)
+print()
+print(f'Failed tasks:', *list_failed_tasks)

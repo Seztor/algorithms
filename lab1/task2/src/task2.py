@@ -1,5 +1,8 @@
 from lab1.utils_lab1 import *
 
+PATH_INPUT = "../txtf/input.txt"
+PATH_OUTPUT = "../txtf/output.txt"
+
 def ins_sort_2(arr):
     ind_arr = [-1] * len(arr)
     ind_arr[0] = 1
@@ -12,9 +15,6 @@ def ins_sort_2(arr):
         arr[i + 1] = k
         ind_arr[j] = i + 2
     return ind_arr, arr
-
-PATH_INPUT = "../txtf/input.txt"
-PATH_OUTPUT = "../txtf/output.txt"
 
 def task2():
     n, arr = read_data(PATH_INPUT)
