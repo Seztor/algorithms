@@ -1,5 +1,5 @@
-from lab3.task2.src.task2 import *
-from lab3.utils_lab3 import *
+from lab3.task2.src.task2 import task2, create_arr_for_test
+from lab3.utils_lab3 import read_data, write_data, func_mem_and_time
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"

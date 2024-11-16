@@ -1,11 +1,15 @@
 import subprocess
 import os
+import time
 
 list_tasks = [1,3,4,5,6,7]
 list_passed_tasks = []
 list_failed_tasks = []
 
 print('#' * 85 + '\n')
+
+tests_start_time = time.perf_counter()
+
 
 for i in list_tasks:
     os.chdir(f'task{i}/tests/')
@@ -24,3 +28,7 @@ for i in list_tasks:
 print(f'Passed tasks:', *list_passed_tasks)
 print()
 print(f'Failed tasks:', *list_failed_tasks)
+print()
+print(f'Execution Time: {round(time.perf_counter()-tests_start_time,5)} sec' )
+print()
+print('#'*85+'\n')

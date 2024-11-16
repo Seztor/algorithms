@@ -1,5 +1,6 @@
-from lab2.task7.src.task7 import *
-from lab2.utils_lab2 import *
+from lab2.task7.src.task7 import task7
+from lab2.utils_lab2 import read_data,write_data,func_mem_and_time
+import random
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"

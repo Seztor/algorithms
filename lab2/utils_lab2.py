@@ -1,6 +1,5 @@
 import time
 import psutil
-import random
 
 
 def func_mem_and_time(function):

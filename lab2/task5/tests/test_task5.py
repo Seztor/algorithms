@@ -1,5 +1,5 @@
-from lab2.task5.src.task5 import *
-from lab2.utils_lab2 import *
+from lab2.task5.src.task5 import task5
+from lab2.utils_lab2 import read_data,write_data,func_mem_and_time
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"

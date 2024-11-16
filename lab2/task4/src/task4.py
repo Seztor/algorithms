@@ -1,4 +1,4 @@
-from lab2.utils_lab2 import *
+from lab2.utils_lab2 import read_data,write_data
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
