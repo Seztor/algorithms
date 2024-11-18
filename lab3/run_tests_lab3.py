@@ -11,7 +11,7 @@ tests_start_time = time.perf_counter()
 
 for i in list_tasks:
     os.chdir(f'task{i}/tests/')
-    print(f'TEST TASK #{i}')
+    print(f'\033[36mTEST TASK #{i}\033[0m')
     path_test = f'test_task{i}.py'
     result = subprocess.run(['pytest','--tb=no',path_test], capture_output=True, text=True).stdout
     if 'passed' in result:
