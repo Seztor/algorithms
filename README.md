@@ -19,17 +19,23 @@
 - PyCharm — среда разработки для языка программирования Python
 - Python 3 — язык программирования
 
-Инструкция по запуску
-Клонируйте репозиторий:
+## Инструкция по запуску
+- Клонируйте репозиторий:
 
-`git clone https://github.com/Brondee/alg-labs.git`
+\```python
+git clone https://github.com/Setzor/algorithms.git
+\```
 
-Перейдите в папку с проектом:
+- Перейдите в папку с проектом:
+- 
+\```python
+cd algorithms
+\```
 
-cd alg-labs
-Запуску всех лабораторных
-
-for script in lab*/*/src/*.py; do PYTHONPATH=$(pwd) python3 "$script"; done
 Запуску всех тестов
 
-for script in lab*/*/tests/*.py; do PYTHONPATH=$(pwd) python3 "$script"; done
+\```python
+python run_all_lab_tests.py
+\```
+
+
