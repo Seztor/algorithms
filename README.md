@@ -1,9 +1,9 @@
 # Лабораторные работы по алгоритмам и структурам данных
 ## Говоров Павел Игоревич 465557
-- [x] [Лабораторная работа №0. Введение](https://github.com/Seztor/algorithms/tree/main/lab0)
-- [x] [Лабораторная работа №1 Сортировка вставками, выбором, пузырьковая](https://github.com/Seztor/algorithms/tree/main/lab1)
-- [x] [Лабораторная работа №2: Сортировка слиянием. Метод декомпозиции](https://github.com/Seztor/algorithms/tree/main/lab2)
-- [x] [Лабораторная работа №3: Быстрая сортировка, сортировки за линейное время](https://github.com/Seztor/algorithms/tree/main/lab3)
+- [ ] [Лабораторная работа №0. Введение](https://github.com/Seztor/algorithms/tree/main/lab0)
+- [ ] [Лабораторная работа №1 Сортировка вставками, выбором, пузырьковая](https://github.com/Seztor/algorithms/tree/main/lab1)
+- [ ] [Лабораторная работа №2: Сортировка слиянием. Метод декомпозиции](https://github.com/Seztor/algorithms/tree/main/lab2)
+- [ ] [Лабораторная работа №3: Быстрая сортировка, сортировки за линейное время](https://github.com/Seztor/algorithms/tree/main/lab3)
 
 ## Цели и задачи
 - Изучить основные команды Git                                                                                                  
