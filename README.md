@@ -21,21 +21,17 @@
 
 ## Инструкция по запуску
 - Клонируйте репозиторий:
-
-\```python
+`
 git clone https://github.com/Setzor/algorithms.git
-\```
-
+`
 - Перейдите в папку с проектом:
-- 
-\```python
+`
 cd algorithms
-\```
+`
 
 Запуску всех тестов
-
-\```python
+`
 python run_all_lab_tests.py
-\```
+`
 
 
