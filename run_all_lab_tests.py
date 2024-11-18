@@ -1,9 +1,11 @@
 import subprocess
 import os
-list_tasks = [1,2,3]
 
 
-for i in list_tasks:
+lab_tasks = [1,2,3]
+
+
+for i in lab_tasks:
     os.chdir(f'lab{i}/')
 
     print(f'\033[34mTESTS LAB #{i}\033[0m')
