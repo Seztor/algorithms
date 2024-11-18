@@ -26,7 +26,7 @@ git clone https://github.com/Setzor/algorithms.git
 `
 - Перейдите в папку с проектом:
 `
-cd algorithms
+cd algorithms/
 `
 
 - Запуску всех тестов
