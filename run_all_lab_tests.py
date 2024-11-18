@@ -1,0 +1,13 @@
+import subprocess
+import os
+list_tasks = [1,2,3]
+
+
+for i in list_tasks:
+    os.chdir(f'lab{i}/')
+    print(f'TESTS LAB #{i}')
+    print()
+    path_test = f'run_tests_lab{i}.py'
+    result = subprocess.run(['python',path_test], capture_output=True, text=True).stdout
+    print(result)
+    os.chdir(f'..')
