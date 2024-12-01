@@ -10,7 +10,7 @@
 #### [Задача 3. Сортировка вставкой по убыванию](https://github.com/Seztor/algorithms/tree/main/lab1/task3)
 #### [Задача 4. Линейный поиск](https://github.com/Seztor/algorithms/tree/main/lab1/task4)
 #### [Задача 7. Знакомство с жителями Сортлэнда](https://github.com/Seztor/algorithms/tree/main/lab1/task7)
-#### [Задача 10⋆. Палиндром](https://github.com/Seztor/algorithms/tree/main/lab1/task10)
+#### [Задача 10. Палиндром](https://github.com/Seztor/algorithms/tree/main/lab1/task10)
 
 ## Структура проекта
 - `src/` — исходный код программы.
