@@ -25,7 +25,11 @@
     ```
    cd algorithms/lab1
     ```
-3. Запустите тесты
+3. Запустите файлы
+   ```
+   python run_files_lab1.py
+   ```
+4. Запустите тесты
    ```
    python run_tests_lab1.py
    ```
