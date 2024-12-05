@@ -29,7 +29,12 @@ git clone https://github.com/Setzor/algorithms.git
 cd algorithms/
 `
 
-- Запуску всех тестов
+- Запуск всех файлов
+`
+python run_all_lab_files.py
+`
+
+- Запуск всех тестов
 `
 python run_all_lab_tests.py
 `

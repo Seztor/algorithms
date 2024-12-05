@@ -8,9 +8,9 @@
 #### [Задача 1. Сортировка вставкой](https://github.com/Seztor/algorithms/tree/main/lab1/task1)
 #### [Задача 2. Сортировка вставкой +](https://github.com/Seztor/algorithms/tree/main/lab1/task2)
 #### [Задача 3. Сортировка вставкой по убыванию](https://github.com/Seztor/algorithms/tree/main/lab1/task3)
-#### [4 задача. Линейный поиск](https://github.com/Seztor/algorithms/tree/main/lab1/task4)
-#### [7 задача. Знакомство с жителями Сортлэнда](https://github.com/Seztor/algorithms/tree/main/lab1/task7)
-#### [10 задача⋆. Палиндром](https://github.com/Seztor/algorithms/tree/main/lab1/task10)
+#### [Задача 4. Линейный поиск](https://github.com/Seztor/algorithms/tree/main/lab1/task4)
+#### [Задача 7. Знакомство с жителями Сортлэнда](https://github.com/Seztor/algorithms/tree/main/lab1/task7)
+#### [Задача 10. Палиндром](https://github.com/Seztor/algorithms/tree/main/lab1/task10)
 
 ## Структура проекта
 - `src/` — исходный код программы.
@@ -25,7 +25,11 @@
     ```
    cd algorithms/lab1
     ```
-3. Запустите тесты
+3. Запустите файлы
+   ```
+   python run_files_lab1.py
+   ```
+4. Запустите тесты
    ```
    python run_tests_lab1.py
    ```
