@@ -8,12 +8,10 @@ PATH_OUTPUT = "../txtf/output.txt"
 @func_mem_and_time
 def test_should_testing_task2():
     #given
-    n = 4
-    data = ["+ 1", "+ 10", "-", "-"]
-    write_data(PATH_INPUT, n, *data)
+    data = ["4","+ 1", "+ 10", "-", "-"]
 
     #when
-    st = task2()
+    st = task2(data)
     ans_to_check = "1\n10"
 
 

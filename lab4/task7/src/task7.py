@@ -26,7 +26,10 @@ def max_slide_window(arr, w_len):
     return ans_arr
 
 
-def task7():
+def task7(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     open_reading(PATH_INPUT)
     n = read_data_by_line(PATH_INPUT)
     arr_data = read_data_by_line(PATH_INPUT, int, True)

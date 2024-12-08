@@ -21,7 +21,7 @@ def task1():
     return sorted_arr
 
 
-if __name__ == 'main':
+if __name__ == '__main__':
     task1()
 
 

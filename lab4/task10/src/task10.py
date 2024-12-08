@@ -54,7 +54,10 @@ def convert_to_hours_min(num):
 
 
 
-def task10():
+def task10(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     open_reading(PATH_INPUT)
 
     n = read_data_by_line(PATH_INPUT)

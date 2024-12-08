@@ -9,10 +9,9 @@ PATH_OUTPUT = "../txtf/output.txt"
 def test_should_testing_task6():
     #given
     test_arr = ["7", "+ 1", "?", "+ 10", "?", "-", "?", "-"]
-    write_data(PATH_INPUT, *test_arr)
 
     #when
-    ans = task6()
+    ans = task6(test_arr)
     ans_to_check = [1,1,10]
 
     #then

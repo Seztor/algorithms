@@ -35,5 +35,5 @@ def task10():
     write_data(PATH_OUTPUT, new_s)
     return new_s
 
-if __name__ == 'main':
+if __name__ == '__main__':
     task10()

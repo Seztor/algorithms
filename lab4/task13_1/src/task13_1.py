@@ -42,7 +42,10 @@ class Stack:
 
 
 
-def task13_1():
+def task13_1(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     open_reading(PATH_INPUT)
 
     n = read_data_by_line(PATH_INPUT)

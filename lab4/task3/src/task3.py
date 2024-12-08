@@ -17,7 +17,11 @@ def valid_brackets(s):
 
     return len(stack) == 0
 
-def task3():
+def task3(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
+
     n, *strings = read_data(PATH_INPUT)
     arr_ans = []
     for i in strings:

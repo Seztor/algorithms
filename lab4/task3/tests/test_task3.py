@@ -6,14 +6,12 @@ PATH_OUTPUT = "../txtf/output.txt"
 
 
 @func_mem_and_time
-def test_should_testing_task4():
+def test_should_testing_task3():
     #given
-    n = 5
-    arr_data = ["()()","([])","([)]","((]]",")("]
-    write_data(PATH_INPUT, n, *arr_data)
+    arr_data = ["5","()()","([])","([)]","((]]",")("]
 
     #when
-    ans = task3()
+    ans = task3(arr_data)
     arr_to_check = ["YES","YES","NO","NO","NO"]
 
     #then
@@ -21,4 +19,4 @@ def test_should_testing_task4():
 
 
 if __name__ == '__main__':
-    test_should_testing_task4()
+    test_should_testing_task3()

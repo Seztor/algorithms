@@ -22,5 +22,5 @@ def task4():
         write_data(PATH_OUTPUT, len(found), found)
         return len(found), found
 
-if __name__ == 'main':
+if __name__ == '__main__':
     task4()

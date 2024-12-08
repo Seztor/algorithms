@@ -26,5 +26,5 @@ def task4():
     write_data(PATH_OUTPUT, ans_arr)
     return ans_arr
 
-if __name__ == 'main':
+if __name__ == '__main__':
     task4()

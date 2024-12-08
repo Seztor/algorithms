@@ -40,5 +40,5 @@ def task5():
     write_data(PATH_OUTPUT, is_majority)
     return is_majority
 
-if __name__ == 'main':
+if __name__ == '__main__':
     task5()

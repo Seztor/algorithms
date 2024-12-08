@@ -39,7 +39,10 @@ class Queue:
 
 
 
-def task2():
+def task2(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
 
     open_reading(PATH_INPUT)
 
