@@ -1,15 +1,16 @@
-# Лабораторная работа №3: Быстрая сортировка, сортировки за линейное время
+# Лабораторная работа №4: Стек, очередь, связанный список
 
 ## Описание
 Лабораторная работа посвящена методу Разделяй и властвуй, быстрой сортировке, а также сортировкам за линейное время
 
 ## Задачи:
-#### [Задача 1. Улучшение Quick sort](https://github.com/Seztor/algorithms/tree/main/lab3/task1)
-#### [Задача 2. Анти-quick sort](https://github.com/Seztor/algorithms/tree/main/lab3/task2)
-#### [Задача 4. Точки и отрезки](https://github.com/Seztor/algorithms/tree/main/lab3/task4)
-#### [Задача 6. Сортировка целых чисел](https://github.com/Seztor/algorithms/tree/main/lab3/task6)
-#### [Задача 8. K ближайших точек к началу координат](https://github.com/Seztor/algorithms/tree/main/lab3/task7)
-#### [Задача 9. Ближайшие точки](https://github.com/Seztor/algorithms/tree/main/lab3/task9)
+#### [Задача 2. Очередь](https://github.com/Seztor/algorithms/tree/main/lab4/task2)
+#### [Задача 3. Скобочная последовательность. Версия 1](https://github.com/Seztor/algorithms/tree/main/lab4/task3)
+#### [Задача 6. Очередь с минимумом](https://github.com/Seztor/algorithms/tree/main/lab4/task6)
+#### [Задача 7. Максимум в движущейся последовательности](https://github.com/Seztor/algorithms/tree/main/lab4/task7)
+#### [Задача 10. Очередь в пекарню](https://github.com/Seztor/algorithms/tree/main/lab4/task10)
+#### [Задача 13.1. Стек на основе связного списка](https://github.com/Seztor/algorithms/tree/main/lab4/task13_1)
+#### [Задача 13.2. Очередь на основе связного списка](https://github.com/Seztor/algorithms/tree/main/lab4/task13_2)
 
 ## Структура проекта
 - `src/` — исходный код программы.
@@ -22,9 +23,9 @@
    ```
 2. Перейдите в папку с проектом:
     ```
-   cd algorithms/lab3
+   cd algorithms/lab4
     ```
 3. Запустите тесты
    ```
-   python run_tests_lab3.py
+   python run_tests_lab4.py
    ```
