@@ -1,24 +1,32 @@
+import unittest
+
 from lab4.task13_2.src.task13_2 import task13_2
-from lab4.utils_lab4 import write_data, func_mem_and_time
+from lab4.utils_lab4 import measure_mem_time
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
 
 
-@func_mem_and_time
-def test_should_testing_task13_2():
-    #given
-    test_arr = ["9","+ 1","?","+ 10","?","+ 12","?","-","-","?"]
+class Test(unittest.TestCase):
+    expected_time = 1
+    expected_memory = 64
 
-    #when
-    ans = task13_2(test_arr)
-    ans_to_check = ["1","1 10","1 10 12","12"]
+    def test_should_testing_task13_2(self):
+        #given
+        test_arr = ["9","+ 1","?","+ 10","?","+ 12","?","-","-","?"]
+        ans_to_check = ["1", "1 10", "1 10 12", "12"]
+
+        #when
+        ans = task13_2(test_arr)
+        time, memory = measure_mem_time(task13_2, test_arr)
 
 
-    #then
-    assert ans == ans_to_check
+        #then
+        self.assertEqual(ans, ans_to_check)
+        self.assertLessEqual(time, self.expected_time)
+        self.assertLessEqual(memory, self.expected_memory)
 
 
 if __name__ == '__main__':
-    test_should_testing_task13_2()
+    unittest.main()
 

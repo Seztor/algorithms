@@ -1,6 +1,6 @@
-from lab4.utils_lab4 import write_data, open_reading, close_reading, read_data_by_line
 from collections import deque
 
+from lab4.utils_lab4 import write_data, open_reading, close_reading, read_data_by_line
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
