@@ -12,7 +12,10 @@ def find_equal(arr,v):
 
     return found
 
-def task4():
+def task4(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     arr, v = read_data(PATH_INPUT)
     found = find_equal(arr,v)
     if len(found) == 0:

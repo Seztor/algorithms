@@ -1,23 +1,30 @@
-from lab2.task1.src.task1 import task1
-from lab2.utils_lab2 import read_data,write_data,func_mem_and_time
 import random
+import unittest
+
+from lab2.task1.src.task1 import task1
+from lab2.utils_lab2 import measure_mem_time
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
 
-@func_mem_and_time
-def test_should_testing_task1():
-    #given
-    n = 10 ** 5
-    arr = [random.randint(1, 10 ** 9) for _ in range(n)]
-    arr_c = arr.copy()
-    write_data(PATH_INPUT, n, arr)
+class Test(unittest.TestCase):
+    expected_time = 1
+    expected_memory = 64
 
-    #when
-    ans_arr = task1()
+    def test_should_testing_task1(self):
+        #given
+        n = 10 ** 5
+        data = (n, [random.randint(1, 10 ** 9) for _ in range(n)])
+        ans_to_check = sorted(data[1])
 
-    #then
-    assert ans_arr == sorted(arr_c)
+        #when
+        ans_arr = task1(data)
+        time, memory = measure_mem_time(task1, data)
+
+        #then
+        self.assertListEqual(ans_arr, ans_to_check)
+        self.assertLessEqual(time, self.expected_time)
+        self.assertLessEqual(memory, self.expected_memory)
 
 if __name__ == '__main__':
-  test_should_testing_task1()
+  unittest.main()

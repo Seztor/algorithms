@@ -29,7 +29,10 @@ def max_subarray_linear_for_comparing(nums):
 
 
 
-def task7():
+def task7(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n, arr = read_data(PATH_INPUT)
     arr_ans1 = max_subarray_linear_for_comparing(arr)
     arr_ans2 = max_subarray_linear(arr)

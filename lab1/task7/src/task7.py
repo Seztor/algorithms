@@ -15,7 +15,11 @@ def ins_sort_plus(n,arr):
 
     return arr[0][1], arr[n//2][1], arr[-1][1]
 
-def task7():
+
+def task7(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n, arr = read_data(PATH_INPUT, arr_num_type=float)
     ans = ins_sort_plus(n,arr)
     write_data(PATH_OUTPUT, ans)

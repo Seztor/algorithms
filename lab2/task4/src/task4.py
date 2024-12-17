@@ -20,7 +20,10 @@ def bin_search(arr, key):
 
 
 
-def task4():
+def task4(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n, arr_n, k, arr_k = read_data(PATH_INPUT)
     ans_arr = [bin_search(arr_n, el) for el in arr_k]
     write_data(PATH_OUTPUT, ans_arr)

@@ -14,7 +14,10 @@ def ins_sort(arr):
         arr[i+1] = k
     return arr
 
-def task1():
+def task1(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n, arr = read_data(PATH_INPUT)
     sorted_arr = ins_sort(arr)
     write_data(PATH_OUTPUT, sorted_arr)

@@ -1,4 +1,4 @@
-from lab3.utils_lab3 import read_data, write_data, read_data_by_line, open_reading, close_reading
+from lab3.utils_lab3 import write_data, read_data_by_line, open_reading, close_reading
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
@@ -47,7 +47,10 @@ def brute_force_sol(segments, points):
     return ans_arr
 
 
-def task4():
+def task4(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     open_reading(PATH_INPUT)
     s, p = read_data_by_line(PATH_INPUT)
     segments = []

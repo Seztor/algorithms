@@ -24,7 +24,10 @@ def create_arr_for_test(n):
 
 
 
-def task2():
+def task2(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, data_to_write)
+
     n, = read_data(PATH_INPUT)
     arr = generate_worst_case(n)
     write_data(PATH_OUTPUT, arr)

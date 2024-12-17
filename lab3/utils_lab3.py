@@ -1,5 +1,7 @@
 import time
+
 import psutil
+
 
 def func_mem_and_time(function):
     '''Декоратор измерения времени и памяти'''
@@ -13,6 +15,12 @@ def func_mem_and_time(function):
         return res
     return wrapped
 
+def measure_mem_time(function, dataList):
+    start_time = time.perf_counter()
+    function(dataList)
+    memory = round(psutil.Process().memory_info().rss / 1024 ** 2, 2)
+    time_work = round(time.perf_counter() - start_time, 5)
+    return time_work, memory
 
 def read_data(path, arr_num_type=int):
     f_in = open(path)

@@ -10,7 +10,6 @@ class Test(unittest.TestCase):
     expected_time = 1
     expected_memory = 64
 
-
     def test_should_testing_task2(self):
         #given
         data = ["4","+ 1", "+ 10", "-", "-"]

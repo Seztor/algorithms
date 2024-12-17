@@ -1,4 +1,4 @@
-from lab4.utils_lab4 import write_data, open_reading, close_reading, read_data_by_line
+from lab4.utils_lab4 import write_data, open_reading, close_reading, read_data_by_line, func_mem_and_time
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
@@ -41,7 +41,7 @@ class Stack:
             return " ".join(reversed(temp_arr))
 
 
-
+@func_mem_and_time
 def task13_1(data_to_write=None):
     if not data_to_write is None:
         write_data(PATH_INPUT, *data_to_write)

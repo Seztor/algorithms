@@ -1,5 +1,6 @@
-from lab3.utils_lab3 import read_data, write_data
 import random
+
+from lab3.utils_lab3 import read_data, write_data
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
@@ -51,7 +52,10 @@ def partition3(arr, l, r):
     return lt, gt
 
 
-def task1():
+def task1(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n, arr = read_data(PATH_INPUT)
     quick_sort_p3(arr, 0, n - 1)
     write_data(PATH_OUTPUT, arr)

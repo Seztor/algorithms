@@ -10,7 +10,10 @@ def reverse_ins_sort(arr):
             i -= 1
     return arr
 
-def task3():
+def task3(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n, arr = read_data(PATH_INPUT)
     ans_arr = reverse_ins_sort(arr)
     write_data(PATH_OUTPUT, ans_arr)

@@ -52,7 +52,10 @@ def find_dist(dot1, dot2):
 
 
 
-def task9():
+def task9(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     open_reading(PATH_INPUT)
     n = read_data_by_line(PATH_INPUT)
     arr_dots = []

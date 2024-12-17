@@ -29,7 +29,10 @@ def palindrom(n,s):
 
     return new_s
 
-def task10():
+def task10(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n, s = read_data(PATH_INPUT)
     new_s = palindrom(n,s)
     write_data(PATH_OUTPUT, new_s)

@@ -19,7 +19,10 @@ def sort_integer_nums(arr_a, arr_b):
 
 
 
-def task6():
+def task6(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n_m, arr_a, arr_b = read_data(PATH_INPUT)
 
     ans = sort_integer_nums(arr_a, arr_b)

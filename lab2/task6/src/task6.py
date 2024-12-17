@@ -38,7 +38,10 @@ def max_cross_subarray(arr, low, m, high):
 
 
 
-def task6():
+def task6(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n, arr = read_data(PATH_INPUT)
     razn_arr = [j - i for i, j in zip(arr, arr[1:])]
     arr_ans = max_subarray(razn_arr, 0, len(razn_arr)-1)

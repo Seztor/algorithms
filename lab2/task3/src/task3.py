@@ -41,7 +41,10 @@ def merge_2(arr, p, q, r):
     return k
 
 
-def task3():
+def task3(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n, arr = read_data(PATH_INPUT)
     k = merge_sort_2(arr, 0, len(arr) - 1)
     write_data(PATH_OUTPUT, k)

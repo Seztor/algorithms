@@ -16,7 +16,10 @@ def ins_sort_2(arr):
         ind_arr[j] = i + 2
     return ind_arr, arr
 
-def task2():
+def task2(data_to_write=None):
+    if not data_to_write is None:
+        write_data(PATH_INPUT, *data_to_write)
+
     n, arr = read_data(PATH_INPUT)
     ans_arr = ins_sort_2(arr)
     write_data(PATH_OUTPUT, *ans_arr)
