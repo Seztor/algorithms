@@ -1,5 +1,6 @@
-from lab5.utils_lab5 import write_data, read_data_by_line, open_reading, close_reading, read_data
 from collections import deque
+
+from lab5.utils_lab5 import write_data, read_data, func_mem_and_time
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
@@ -49,7 +50,7 @@ def get_tree_height(arr):
 
     return recursive_find_height(nodes_arr[root_id])
 
-
+@func_mem_and_time
 def task2(data_to_write=None):
     if not data_to_write is None:
         write_data(PATH_INPUT, *data_to_write)

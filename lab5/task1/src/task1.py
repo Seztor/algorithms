@@ -1,4 +1,4 @@
-from lab5.utils_lab5 import write_data, read_data_by_line, open_reading, close_reading, read_data
+from lab5.utils_lab5 import write_data, read_data
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
