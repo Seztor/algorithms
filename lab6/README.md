@@ -4,11 +4,11 @@
 Лабораторная работа посвящена ознакомлению с такими понятиями, как множество, словари, хеш-таблицы и хеш-функции
 
 ## Задачи:
-#### [Задача 1. Куча ли?](https://github.com/Seztor/algorithms/tree/main/lab6/task1)
-#### [Задача 2. Высота дерева](https://github.com/Seztor/algorithms/tree/main/lab6/task2)
-#### [Задача 4. Построение пирамиды](https://github.com/Seztor/algorithms/tree/main/lab6/task4)
-#### [Задача 5. Очередь с приоритетами](https://github.com/Seztor/algorithms/tree/main/lab6/task5)
-#### [Задача 7. Очередь с приоритетами](https://github.com/Seztor/algorithms/tree/main/lab6/task7)
+#### [Задача 1. Множество](https://github.com/Seztor/algorithms/tree/main/lab6/task1)
+#### [Задача 2. Телефонная книга](https://github.com/Seztor/algorithms/tree/main/lab6/task2)
+#### [Задача 4. Прошитый ассоциативный массив](https://github.com/Seztor/algorithms/tree/main/lab6/task4)
+#### [Задача 5. Выборы в США](https://github.com/Seztor/algorithms/tree/main/lab6/task5)
+#### [Задача 7. Драгоценные камни](https://github.com/Seztor/algorithms/tree/main/lab6/task7)
 
 
 ## Структура проекта
