@@ -15,7 +15,7 @@ for i in list_tasks:
     print(f'\033[36mTEST TASK #{i}\033[0m')
     path_test = f'test_task{i}.py'
     result = subprocess.run(['pytest','--tb=no',path_test], capture_output=True, text=True).stdout
-    if 'passed' in result:
+    if 'failed' not in result:
         print(f"\033[32m{result}\033[0m")
         list_passed_tasks.append(i)
     else:
