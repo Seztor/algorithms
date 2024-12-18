@@ -1,6 +1,6 @@
 from collections import deque
 
-from lab5.utils_lab5 import write_data, read_data, func_mem_and_time
+from lab5.utils_lab5 import write_data, read_data
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
