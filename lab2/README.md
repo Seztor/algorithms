@@ -32,4 +32,5 @@
 4. Запустите тесты
    ```
    python run_tests_lab2.py
+   python run_files_lab2.py
    ```

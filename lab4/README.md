@@ -28,4 +28,5 @@
 3. Запустите тесты
    ```
    python run_tests_lab4.py
+   python run_files_lab4.py
    ```
