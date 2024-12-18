@@ -39,5 +39,20 @@ class Test(unittest.TestCase):
         self.assertLessEqual(time, self.expected_time)
         self.assertLessEqual(memory, self.expected_memory)
 
+
+    def test_should_testing_task8_3(self):
+        #given
+        test_arr = ["3","10 0 0","10 1 1","10 2 1"]
+        ans_to_check = ["10 10","10 20","10 2"]
+
+        #when
+        ans = task10(test_arr)
+        time, memory = measure_mem_time(task10, test_arr)
+
+        #then
+        self.assertEqual(ans, ans_to_check)
+        self.assertLessEqual(time, self.expected_time)
+        self.assertLessEqual(memory, self.expected_memory)
+
 if __name__ == '__main__':
     unittest.main()
