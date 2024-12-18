@@ -16,20 +16,20 @@ def get_swap_arr(data):
 
 def recursion(ind, n, data):
     global ans_swap
-    min_index = ind
+    min_ind = ind
     left = 2 * ind + 1
     right = 2 * ind + 2
 
-    if left < n and data[left] < data[min_index]:
-        min_index = left
+    if left < n and data[left] < data[min_ind]:
+        min_ind = left
 
-    if right < n and data[right] < data[min_index]:
-        min_index = right
+    if right < n and data[right] < data[min_ind]:
+        min_ind = right
 
-    if ind != min_index:
-        data[ind], data[min_index] = data[min_index], data[ind]
-        ans_swap.append((ind, min_index))
-        recursion(min_index, n, data)
+    if ind != min_ind:
+        data[ind], data[min_ind] = data[min_ind], data[ind]
+        ans_swap.append((ind, min_ind))
+        recursion(min_ind, n, data)
 
 
 

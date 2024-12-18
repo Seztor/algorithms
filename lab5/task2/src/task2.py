@@ -50,7 +50,7 @@ def get_tree_height(arr):
 
     return recursive_find_height(nodes_arr[root_id])
 
-@func_mem_and_time
+
 def task2(data_to_write=None):
     if not data_to_write is None:
         write_data(PATH_INPUT, *data_to_write)
