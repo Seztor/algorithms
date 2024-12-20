@@ -3,21 +3,26 @@ from lab6.utils_lab6 import write_data, open_reading, read_data_by_line, close_r
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
 
+class HashSet:
+    def __init__(self, size=6*10**5):
+        self.size = size
+        self.hash_arr = [[] for i in range(size)]
 
-class Set:
-    def __init__(self):
-        self.mn = set()
+    def add(self, key):
+        ind = self.get_hash(key)
+        if key not in self.hash_arr[ind]:
+            self.hash_arr[ind].append(key)
 
-    def add(self, item):
-        if item not in self.mn:
-            self.mn.add(item)
+    def pop(self, key):
+        ind = self.get_hash(key)
+        if key in self.hash_arr[ind]:
+            self.hash_arr[ind].remove(key)
 
-    def pop(self, item):
-        if item in self.mn:
-            self.mn.remove(item)
+    def check(self, key):
+        return key in self.hash_arr[self.get_hash(key)]
 
-    def check(self, item):
-        return item in self.mn
+    def get_hash(self, key):
+        return hash(key) % self.size
 
 
 def task1(data_to_write=None):
@@ -27,7 +32,7 @@ def task1(data_to_write=None):
     open_reading(PATH_INPUT)
 
     n = read_data_by_line(PATH_INPUT, int)
-    mn = Set()
+    mn = HashSet()
     ans_arr = []
     for i in range(n):
         temp_list = read_data_by_line(PATH_INPUT, str, True)
