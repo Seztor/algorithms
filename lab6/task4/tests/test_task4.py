@@ -11,7 +11,7 @@ class Test(unittest.TestCase):
     expected_memory = 64
 
 
-    def test_should_testing_task6_1(self):
+    def test_should_testing_task4_1(self):
         #given
         data = ["14","put zero a","put one b","put two c","put three d",
                 "put four e", "get two", "prev two", "next two", "delete one",
@@ -28,7 +28,7 @@ class Test(unittest.TestCase):
         self.assertLessEqual(memory, self.expected_memory)
 
 
-    def test_should_testing_task6_2(self):
+    def test_should_testing_task4_2(self):
         # given
         data = ["8", "put zero 0", "put one 1", "put two 2", "delete one",
                 "prev zero", "next zero", "prev two", "next two"]
@@ -44,7 +44,7 @@ class Test(unittest.TestCase):
         self.assertLessEqual(memory, self.expected_memory)
 
 
-    def test_should_testing_task6_3(self):
+    def test_should_testing_task4_3(self):
         # given
         data = ["7", "put pavel g", "delete pavel", "put pavel g", "put pavel g",
                 "next pavel", "put tima s", "next pavel"]
