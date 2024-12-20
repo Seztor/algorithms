@@ -7,6 +7,7 @@
 - [ ] [Лабораторная работа №4: Стек, очередь, связанный список](https://github.com/Seztor/algorithms/tree/main/lab4)
 - [ ] [Лабораторная работа №5: Деревья. Пирамида, пирамидальная сортировка. Очередь с приоритетами.](https://github.com/Seztor/algorithms/tree/main/lab5)
 - [ ] [Лабораторная работа №6: Хеширование. Хеш-таблицы](https://github.com/Seztor/algorithms/tree/main/lab6)
+- [ ] [Лабораторная работа №7: Динамическое программирование №1](https://github.com/Seztor/algorithms/tree/main/lab7)
 
 ## Цели и задачи
 - Изучить основные команды Git                                                                                                  
