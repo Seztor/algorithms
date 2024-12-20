@@ -1,4 +1,4 @@
-from lab6.utils_lab6 import write_data, open_reading, read_data_by_line, close_reading
+from lab7.utils_lab7 import write_data, open_reading, read_data_by_line, close_reading, func_mem_and_time
 
 PATH_INPUT = "../txtf/input.txt"
 PATH_OUTPUT = "../txtf/output.txt"
@@ -18,7 +18,7 @@ def get_longest_sub(arr1, arr2, arr3):
 
     return dp[-1][-1][-1]
 
-
+@func_mem_and_time
 def task5(data_to_write=None):
     if not data_to_write is None:
         write_data(PATH_INPUT, *data_to_write)
