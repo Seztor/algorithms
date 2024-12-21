@@ -18,7 +18,7 @@ class Queue:
             self.tail = (self.tail + 1) % self.n
             self.count_el += 1
         else:
-            raise "Queue overflow"
+            raise IndexError("Queue overflow")
 
     def pop(self):
         if self.count_el > 0:
@@ -27,7 +27,7 @@ class Queue:
             self.count_el -= 1
             return temp_per
         else:
-            raise "Queue empty"
+            raise IndexError("Queue empty")
 
 
     def print(self):
